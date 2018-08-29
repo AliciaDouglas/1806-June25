@@ -48,7 +48,9 @@
                     <version>2.2</version>
                     <configuration>
                         <url>http://localhost:8080/manager/text</url>
-                        <server>Tomcat</server>
+                        <!-- <server>Tomcat</server> -->
+                        <username>tomcat</username>
+                        <password>welcome1</password>
                         <path>/myapp</path>
                         <upgrade>true</upgrade>
                     </configuration>
